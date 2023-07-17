@@ -3,6 +3,7 @@ import axios from 'axios'
 import {Link, useNavigate} from 'react-router-dom'
 import './Home.css'
 
+
 const Home = () => {
     const [col,setCol]=useState([]);
     const [input,setInput]=useState([])
@@ -61,6 +62,7 @@ const Home = () => {
                             <td>{d.id}</td>
                             <td>{d.name}</td>
                             <td>{d.email}</td>
+                            <Link className='btn' to={`/read/${d.id}`}>Read</Link>
                             <Link className='btn' to={`/update/${d.id}`}>Update</Link>
                             <button onClick={(e)=>deletefun(d.id)}>Delete</button>
                         </tr>

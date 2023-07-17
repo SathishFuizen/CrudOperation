@@ -33,7 +33,7 @@ const Update = () => {
 <form onSubmit={submitHandler}>
 <div>
                 <label>ID:</label>
-                <input type="text" name="id" disabled value={res.id} />
+                <input type="text" name="id" value={res.name} onChange={(e)=>setRes({...res,name:e.target.value})}/>
             </div>
             <div>
                 <label>Name:</label>

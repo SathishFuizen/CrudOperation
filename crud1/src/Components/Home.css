@@ -1,0 +1,41 @@
+.main-container{
+    background-color:grey;
+    width:60%;
+    margin:10px;
+    color:white
+}
+table{
+    width:100%;
+    border: 2px solid red;
+}
+table th,table td{
+    border: 2px solid black;
+}
+table th{
+    background-color: navy;
+}
+.btn{
+    background-color: green;
+    text-decoration: none;
+    border: 1px solid white;
+    margin:20px;
+    color:white
+}
+button{
+    background-color: red;
+    text-decoration: none;
+    border: 1px solid white;
+    height:20px;
+
+}
+.add{
+    background-color: blue;
+    color:white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.title{
+    color:white;
+    text-decoration: none;
+   
+}
